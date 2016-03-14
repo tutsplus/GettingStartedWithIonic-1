@@ -5,6 +5,7 @@
   "license": "MIT",
   "author": "Jeremy Wilken <gnomation@gnomeontherun.com>",
   "dependencies": {
+    "express": "4.13.1",
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
     "gulp-concat": "^2.2.0",

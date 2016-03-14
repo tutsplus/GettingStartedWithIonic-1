@@ -1,0 +1,12 @@
+<ion-view view-title="Local Parks">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="place in vm.places" class="item-avatar">
+        <img ng-src="{{place.icon}}" />
+        <h2>{{place.name}}</h2>
+        <p>{{place.formatted_address}}</p>
+      </ion-item>
+    </ion-list>
+    <ion-infinite-scroll on-infinite="vm.load()" ng-if="vm.canLoad"></ion-infinite-scroll>
+  </ion-content>
+</ion-view>

@@ -2,6 +2,8 @@
 
 This sample app demonstrates the use of a number of Ionic components to build an app that displays a list of parks for the Chicago area.
 
+Tutorial: http://webdesign.tutsplus.com/tutorials/ionic-tutorial-series-part-2-javascript-components--cms-26168
+
 ### Setup
 
 * Ensure you have [NodeJS](https://nodejs.org) setup, recommend being up to date!
